@@ -1,0 +1,15 @@
+.mi-elemento{
+    border-style: solid;
+    border-color: red;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class post-header{
+    display: flex;
+}
+.class post-icons{
+    display: flex;
+}
