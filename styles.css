@@ -1,15 +1,36 @@
-div{
+#HTML5{
+    display:flex;
+    text-align: center;
+}
+*{
+    border: red;
     box-sizing: border-box;
-    border-color: red;
 }
 div.container{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.class post-header{
-    display: flex;
     
+}
+div.post {
+    position: relative;
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 8px 0;
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header span:last-child{ 
+    position:absolute;
+    display: inline-block;
+    top: 10px;
+    right: 9px;
+    width: 20%;
+    padding: 3px;
+    text-align: right;    
 }
 .class post-icons{
     display: flex;
