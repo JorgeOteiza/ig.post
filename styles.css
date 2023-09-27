@@ -1,7 +1,6 @@
-* {
-    border: 1px solid red;
-    margin: 0;
-    padding: 0;
+body {
+    font-family: 'Roboto-type', sans-serif;
+    background-color: black;
 }
 
 .HTML5 {
@@ -23,6 +22,7 @@ h3 {
 .fa-xl {
     font-size: 2.5em;
     line-height: .04167em;
+    margin-left: 6px;
 }
 
 .fa-html5:before {
@@ -36,10 +36,25 @@ h3 {
 .fa-solid, .fas {
     font-weight: 900;
     font-size: xx-large;
+    margin-right: 6px;
 }
 
 .U {
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 9px;
+}
+
+.U h3 {
+    margin-top: 6px;
+}
+
+.U p {
+    margin-top: 0px;
+    margin-right: 0;
+    margin-bottom: 3px;
+    margin-left: -9px;
 }
 
 .container {
@@ -53,7 +68,6 @@ h3 {
 .post {
     background: white;
     width: 600px;
-    border: 1px solid red;
 }
 
 .post-header {
@@ -72,7 +86,9 @@ h3 {
     padding: 10px;
     font-size: 30px;
     display: inline-flex;
+    margin-right: 9px;
     margin-bottom: 9px;
+    margin-left: 6px;
 }
 
 .fa-bookmark:before {
@@ -95,7 +111,9 @@ h3 {
 .post-body {
     padding: 10px;
     margin-top: 3px;
+    margin-right: 3px;
     margin-bottom: 12px;
+    margin-left: 6px;
 }
 
 .post-body p {
