@@ -68,12 +68,39 @@ h3 {
     height: auto;
 }
 
-.post-icons p {
+.post-icons {
     padding: 10px;
+    font-size: 30px;
+    display: inline-flex;
+    margin-bottom: 9px;
+}
+
+.fa-bookmark:before {
+    content: "\f02e";
+    display: inline-flex;
+    margin-left: 439px;
+    font-size: 30px;
+}
+
+.fa-heart:before {
+    content: "\f004";
+    margin-right: 7px;
+}
+
+.fa-comment:before {
+    content: "\f075";
+    margin-right: 7px;
 }
 
 .post-body {
     padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 12px;
+}
+
+.post-body p {
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 .div span {
