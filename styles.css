@@ -5,9 +5,12 @@
 }
 
 .HTML5 {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    margin-right: 439px;
+}
+
+.HTML5 > span {
+    margin-left: auto;
 }
 
 h3 {
@@ -28,6 +31,11 @@ h3 {
 .fa-xl {
     font-size: 2.3em;
     line-height: 1.04167em;
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+    font-size: xx-large;
 }
 
 .U {
